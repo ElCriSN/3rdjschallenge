@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repitiendo la Guía de Presentacióoon ajjajajajaa =DD!!</title>
+</head>
+<body>
+        <!-- Qué obtenemos cuando comparamos 2 === '2' -->
+    <!-- Obtenemos False, ya que, estamos creando una igualdad estricta, y, tenemos a la Izquierda, un número 2, y a la Derecha una oración 2 ('2') =P!! =)!! -->
+
+        <!-- ¡ Qué obtenemos al comprar true || false !  -->
+    <!-- Obtenemos true, ya que uno de nuestros dos código es verdadero, y cuando tenemos un or (||), con un o dos en verdaderos estamos en true =P!! =)! jaajajjaa =DD!! -->
+
+        <!-- ¡ Qué obtenemos al comparar true && false ! -->
+    <!-- Obtenemos false, ya que requerimos dos true, cuando tenemos un &&, para que estemos en true =P! jajjajaa =DD!! -->
+
+        <!-- ¡ Qué obtenemos cuando escribimos true && false == false ! ¡ En qué orden lo resolvemos =)!! jajajja =D!! -->
+    <!-- Primero, resolvemos de izquierda a derecha (como las Matemáticas jajajjaa =D!!obtenemos de true && false, false, ya que, requerimos dos true, para que sea true =)!!, después de el false == false, obtenemos un true, ya que false == false, es decir, false es igual a false, es verdadero =DD!! jajaa =P!! -->
+<!-- 
+        ¡Qué se muestra en la Consola cuando escribimos:
+
+        a = 550
+        if (a < 576) {
+            console.log("xs")
+        }
+        if (a < 768){
+            console.log("sm")
+        }
+        if (a < 962){
+            console.log("md")
+        }
+        else {
+            console.log("xl")
+        } -->
+    <!-- Teniendo a igual 550, obtenemos: imprimimos un xs, ya que, 550 es menor a 576. Además, imprimimos un sm, ya que 550 es menos a 768, y, al final, obtenemos, también, un md, ya que, 550 es menor a 962 =)!! -->
+    <!-- 
+        ¡Una Función es!:
+        ej: function aprenderHaciendo(){
+            // ¡Manos al código jajajaja =)!! 
+        } -->
+
+            <!-- Funciones y DOM JAJAJAJJAA =D!! -->
+        <!-- <button onclick="
+            pintar('black')
+        "> Pintar Negrooo ajajja =D!!</button>
+        <button onclick="
+            pintar('red')
+        "> Pintar Rojoooo jajajajja =DD!</button>
+        <button onclick="
+            pintar('green')
+        ">Pintar Verdeee jajajaa =D!!</button>
+        <button onclick="
+            pintar('brown')
+        "> Pintar Caféee jajaajjaa =D!!</button> -->
+
+            <!-- EJERCICIO GUIADOOO JAJAJAJAA =D!! -->
+        <!-- <img onclick="agregarBordes('img-1', 'blue')" src="https://placedog.net/500/501" alt="COOOL DOG PHOTOO HAHAHAA =D!" id="img-1">
+        <img onclick="agregarBordes('img-2', 'red')" src="https://placedog.net/500/502" alt="COOOL DOOG PHOTOOOO 0 HAHAAHHAA =D!" id="img-2">
+        <img onclick="agregarBordes('img-3', 'brown')" src="https://placedog.net/501/502" alt="COOOL DOOG PHOTOOO 1 AAHAHAHA =D!!" id="img-3"> -->
+            
+            <!-- EJERCICIO JAJAJAA =D!! -->
+        <!-- <div id="el-1" class="element" style="background-color: red; width: 50px; height: 50px;"></div>
+        <div id="el-2" class="element" style="background-color: yellow; width: 50px; height: 50px;"></div> -->
+            <input value="10" type="text" id="input">
+    <script>
+        // EJERCICIO =D!
+        ele = document.querySelector(selector).value
+        function getValue(selector, par = 7){
+            if (ele < par) {
+                ele = document.querySelector(selector)
+            } else if (ele = par) {
+                ele = document.querySelector(selector)
+            } else {
+                ele = document.querySelector(selector)
+                return "mucho"
+            }
+        }
+
+        // function getBkgColor(selector){
+        //     ele = document.querySelector(selector)
+        //     return ele.style.backgroundColor
+        // }
+
+        // getBkgColor("#el-1")
+        /* El Retorno de las Funcionesss jajaajjajaa =DDD!! */
+        // function suma(a, b){
+        //     return a + b
+        // }
+        // alert(suma(2,3)) /*Opción 1*/
+        // resultado = suma(2,3) /*Opción 2*/
+        // console.log(resultado)
+        // function agregarBordes(elementId, color) {
+        //     elemento = document.querySelector('#' + elementId);
+        //     elemento.style.border = "dashed 3px " + color
+        /* Creamos la Función =)!! jajajaa =P!! */
+    //     function pintar_negro(){
+    //         elemento = document.querySelector("body")
+    //         elemento.style.backgroundColor = "black"
+    //     }
+        
+    //     /* Llamamos a la Funcióon jajajjaa =)!! */
+    //     pintar_negro() // Llamamos a la Función =)!!
+
+    //     /* Función Pintar Rojooo jajajaa =)!! */
+    //     function pintar_rojo(){
+    //         elemento = document.querySelector("body")
+    //         elemento.style.backgroundColor = "red"
+    //     }
+
+    //     pintar_rojo()
+
+    //     /* Función Pintar Amarillooo jajajajaa =)!! */
+    //     function pintar_amarillo(){
+    //         elemento = document.querySelector("body")
+    //         elemento.style.backgroundColor = "yellow"
+    //     }
+
+    //     pintar_amarillo()
+
+    //    /* Función Pintar Verdeee jajajajaa =)!! */
+    //    function pintar_verde(){
+    //     elemento = document.querySelector("body")
+    //     elemento.style.backgroundColor = "green"
+    //    }
+
+    //    pintar_verde()
+    //    /* Parámetrooos jaajjaa =D!! */
+
+    //    pintar = function(color){
+    //     elemento = document.querySelector("body")
+    //     elemento.style.backgroundColor = color
+    //    }
+
+    //    pintar("black")
+
+    //    /* Parámetros con Valores en Defecto =P jajajaa =D!! */
+    //    pintar = function(color = "black"){
+    //     elemento = document.querySelector("body")
+    //     elemento.style.backgroundColor = color
+    //    }
+
+    //    pintar();
+    //    pintar("red");
+    //    pintar("yellow");
+    //    pintar("green");
+    //    pintar("violet");
+
+    //    /* Funciones y DOM =DD!! */
+    //    function pintar(color){
+    //     elemento = document.querySelector("body")
+    //     elemento.style.backgroundColor = color
+    //    }
+
+    </script>
+</body>
+</html>

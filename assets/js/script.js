@@ -1,11 +1,60 @@
+// HOISTING (ALZAR)
+
+// x() /* LLAMAMOS A LA FUNCIÓN =D JAJAJAA =P!!  */
+// function x() { /* Aquí declaramos la Función jajajaa =)! */
+//     console.log("hola");
+// }
+
+// y()
+
+// y = function() {
+//     console.log("hola");
+// }
+
+
+// CONSTANTES JAJAJJAAJAA =DD!
+// const a = 5
+// a = 7
+
+// const suma = (a, b) => a + b
+
+//LET
+// a = 5
+// if (a == 5){
+//     let b = 8 /* LA VARIABLE b LA DEFINIMOS DENTRO DEL BLOQUE Y LA CREAMOS CON ALCANCE DEL BLOQUE =)! JAJAJJAJAA =P!!*/
+// }
+
+// let a = 5
+// let a = 8 /* error =P */
+
+// /* USAR LA LET JAJAJAA =P!!! */
+
+// let a = 5
+// a = 8
+
+//FORMAS DE DEFINIR VARIABLES =DDDD!! JAJAJA =P!!
+// var variable = valor
+
+// // POR EJEMPLO : =DDD!!
+// var a = 5
+
+// function hola() {
+//     var a = 5
+//     console.log(a);
+// }
+// =)!!
 //SCOPE EN JAVASCRIPTT JAJAJAJA =D!!
-HAY TRES TIPOS DE SCOPES = GLOBAL, FUNCIÓN, BLOQUE =)!! JAJAJA =P!
+// HAY TRES TIPOS DE SCOPES = GLOBAL, FUNCIÓN, BLOQUE =)!! JAJAJA =P!
 
-/* AQUÍ ESTAMOS EN UN SCOPE GLOBAL */
+// /* AQUÍ ESTAMOS EN UN SCOPE GLOBAL */
 
-if (a == 5) {
-    /* AQUÍ ESTAMOS EN UN SCOPE DE BLOQUE  JAJAJAA =D!!*/
-}
+// if (a == 5) {
+//     /* AQUÍ ESTAMOS EN UN SCOPE DE BLOQUE  JAJAJAA =D!!*/
+// }
+
+// function hola(){
+//     /* AQUÍ ESTAMOS EN UN SCOPE DE FUNCIÓOOON AJAJAJJAA =)!! */
+// }
 
 // ARROW FUNCTIONS Y ADDEVENTLISTERN =DD!! AJAJAJA =P !! =)!!
 
